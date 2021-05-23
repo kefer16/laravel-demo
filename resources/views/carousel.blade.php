@@ -11,7 +11,7 @@
                 alt="First slide">
             <div class="carousel-caption d-none d-md-block">
                 <h5 class="h1">Sub Titulo 1</h5>
-                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et est similique vero ipsam incidunt
+                <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et est similique vero ipsam incidunt
                     nisi!</p>
             </div>
         </div>
