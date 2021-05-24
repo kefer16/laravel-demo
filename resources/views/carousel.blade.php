@@ -7,17 +7,16 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img class="d-block w-100"
-                src="https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                src="{{ asset('src/carrousel1.jpeg') }}"
                 alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-                <h5 class="h1">Sub Titulo 1</h5>
-                <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et est similique vero ipsam incidunt
-                    nisi!</p>
+                <h5 class="h1">Grupo Asesor TFC</h5>
+                <p class="lead">Contadores y Abogados</p>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100"
-                src="https://images.pexels.com/photos/34092/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                src="{{ asset('src/carrousel2.jpeg') }}"
                 alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
                 <h5 class="h1">Sub Titulo 2</h5>
@@ -27,7 +26,7 @@
         </div>
         <div class="carousel-item">
             <img class="d-block w-100"
-                src="https://images.pexels.com/photos/1181304/pexels-photo-1181304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                src="{{ asset('src/carrousel3.jpeg') }}"
                 alt="Third slide">
             <div class="carousel-caption d-none d-md-block">
                 <h5 class="h1">Sub Titulo 3</h5>

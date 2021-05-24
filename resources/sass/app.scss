@@ -6,10 +6,12 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+// Import Librería de Animaciones : Animate
+@import "~animate.css/animate";
 
 .carousel-item > img {
     object-fit: cover;
-    height: 500px; 
+    height: 600px; 
     filter : brightness(50%);
    
 }
