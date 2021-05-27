@@ -11,7 +11,7 @@
                 alt="First slide">
             <div class="carousel-caption d-none d-md-block">
                 <h5 class="h1">Grupo Asesor TFC</h5>
-                <p class="lead">Contadores y Abogados</p>
+                <p class="lead">Llevamos tu empresa a otro nivel</p>
             </div>
         </div>
         <div class="carousel-item">
