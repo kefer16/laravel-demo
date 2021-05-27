@@ -14723,3 +14723,7 @@ a.text-dark:focus {
   height: 500px;
 }
 
+.navbar {
+  box-shadow: 0 0 6px rgba(102, 102, 102, 0.3);
+}
+
