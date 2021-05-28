@@ -13,6 +13,7 @@
 <body>
 
     @include('header')
+    @include('bannerContactos')
     @include('form_contact')
     @include('map')
     @include('footer')

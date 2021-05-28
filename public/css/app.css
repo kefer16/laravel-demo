@@ -14709,10 +14709,6 @@ a.text-dark:focus {
   animation-name: slideOutUp;
 }
 
-.navbar {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
 .carousel-item > img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -14728,7 +14724,58 @@ a.text-dark:focus {
 }
 
 .nav-link {
-  color: #ffffff;
+  color: #000;
   font-size: 1rem;
+}
+
+.dropdown-menu {
+  -webkit-animation: submenu 0.5s ease-in;
+          animation: submenu 0.5s ease-in;
+}
+
+@-webkit-keyframes submenu {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes submenu {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes links {
+  0% {
+    content: "";
+    width: 10%;
+  }
+
+  100% {
+    color: #265C8C;
+  }
+}
+
+@keyframes links {
+  0% {
+    content: "";
+    width: 10%;
+  }
+
+  100% {
+    color: #265C8C;
+  }
 }
 
