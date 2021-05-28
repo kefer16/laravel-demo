@@ -4,24 +4,24 @@
         <div class="row text-center text-md-left mt-3 pb-3">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold text-white">Company name</h6>
-                <p class="text-white-50">Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                    consectetur
-                    adipisicing elit.</p>
+                <p class="text-white-50">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, minima
+                    officiis quam repellendus doloribus dolorum dicta fuga voluptatem assumenda labore earum
+                    incidunt, animi, ea laboriosam magni pariatur obcaecati sit consequuntur.</p>
             </div>
             <hr class="w-100 clearfix d-md-none">
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold text-white">Products</h6>
                 <p class="text-white-50">
-                    <a class="link-secondary" href="#">MDBootstrap</a>
+                    <a class="link-secondary" href="#">Link 1</a>
                 </p>
                 <p class="text-white-50">
-                    <a href="#!">MDWordPress</a>
+                    <a href="#!">Link 2</a>
                 </p>
                 <p class="text-white-50">
-                    <a href="#!">BrandFlow</a>
+                    <a href="#!">Link 3</a>
                 </p>
                 <p class="text-white-50">
-                    <a href="#!">Bootstrap Angular</a>
+                    <a href="#!">Link 4</a>
                 </p>
             </div>
             <hr class="w-100 clearfix d-md-none">

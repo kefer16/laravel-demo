@@ -1,0 +1,18 @@
+@import "variables";
+.bannerContactos {
+    &__img {
+        position: relative;
+        width: 100%;
+        height: calc(100vh / 2);
+        object-fit: cover;
+        filter: brightness(60%);
+    }
+    &__title {
+        position: absolute;
+        top: calc((100vh / 2) / 2);
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: $White;
+    }
+}

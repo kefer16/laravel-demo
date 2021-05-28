@@ -1,7 +1,6 @@
 <div class="container">
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-        <h1 class="display-4">Contáctanos</h1>
-        <p class="lead">Estamos cerca de ti, en donde te encuentres y a la hora que lo necesites. Con gusto nuestros
+          <p class="lead">Estamos cerca de ti, en donde te encuentres y a la hora que lo necesites. Con gusto nuestros
             ejecutivos especializados atenderán tus dudas, recibirán tus comentarios y te brindarán el servicio que
             requieres. Ponemos a tu alcance el medio de comunicación más cómodo para ti.</p>
     </div>
