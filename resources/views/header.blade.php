@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top">
+<nav class="navbar navbar-expand-lg  fixed-top">
     <div class="container">
         <a class="navbar-brand" href="{{ route('home') }}">
-            <img height="60" src=" {{ asset('src/logo/logo-png.png') }}" alt="">
+            <img style="height: 80px " src=" {{ asset('src/logo/logo-png.png') }}" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,6 +51,6 @@
     </div>
 
 </nav>
-<div style="margin-bottom: 55px">
+{{-- <div style="margin-bottom: 80px">
 
-</div>
+</div> --}}
