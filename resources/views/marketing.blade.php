@@ -1,7 +1,7 @@
 <div id="servicios">
 
     <div class="container text-white py-5 ">
-        <h2 class="h1 text-center font-weight-bold">¿Qué te intereza Encontrar?</h2>
+        <h2 class="h1 text-center font-weight-bold h2__servis">¿Qué te intereza Encontrar?</h2>
         <div class="row my-5">
     
             <div class="col-lg-4 text-center pt-3 card__item">

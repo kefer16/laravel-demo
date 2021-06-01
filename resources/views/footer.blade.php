@@ -1,5 +1,5 @@
 
-<footer class="page-footer font-small mdb-color pt-4 bg-dark">
+<footer class="page-footer font-small mdb-color pt-4">
     <div class="container text-center text-md-left">
         <div class="row text-center text-md-left mt-3 pb-3">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">

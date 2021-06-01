@@ -14763,12 +14763,22 @@ h2 {
 }
 
 #servicios {
+  position: relative;
   background-image: url("/src/servicios/fondo.jpg");
   background-size: cover;
   background-position: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  filter: brightness(90%);
+}
+
+#servicios:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 92, 230, 0.9);
 }
 
 .bd-placeholder-img {
@@ -14777,6 +14787,10 @@ h2 {
 
 svg {
   fill: #fff;
+}
+
+.h2__servis {
+  position: relative;
 }
 
 .card__item {
@@ -14796,6 +14810,10 @@ svg {
 
 .p__ligether {
   color: rgba(13, 13, 13, 0.3);
+}
+
+.page-footer {
+  background-color: #142546;
 }
 
 @-webkit-keyframes submenu {

@@ -1,6 +1,6 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 // Variables
 @import "variables";
 
@@ -8,9 +8,10 @@
 @import "~bootstrap/scss/bootstrap";
 // Import Librería de Animaciones : Animate
 @import "~animate.css/animate";
-@import 'contactos.scss';
+@import "contactos.scss";
 
-h1, h2{
+h1,
+h2 {
     font-family: $font-display;
 }
 .navbar {
@@ -20,7 +21,6 @@ h1, h2{
     object-fit: cover;
     max-height: calc(100vh);
     filter: brightness(60%);
-    // filter: contrast(70%);
 }
 
 .img-feature {
@@ -34,14 +34,13 @@ h1, h2{
 }
 .nav-link {
     font-size: 1rem;
-    
-   &:hover{
-       color: $LigthBlue !important;
-   }
-   
+
+    &:hover {
+        color: $LigthBlue !important;
+    }
 }
-.dropdown-item{
-    &:hover{
+.dropdown-item {
+    &:hover {
         color: $LigthBlue !important;
     }
 }
@@ -50,39 +49,54 @@ h1, h2{
     animation: submenu 0.5s ease-in;
 }
 
-#servicios{
+#servicios {
+    position: relative;
     background-image: url("/src/servicios/fondo.jpg");
     // background: $LigthBlue;
     background-size: cover;
     background-position: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    filter: brightness(90%);
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba($LigthBlue, 0.9);
+    }
+
 }
-.bd-placeholder-img{
+.bd-placeholder-img {
     // background-color: rgba($Darck,0.3);
     transition: 0.5s ease all;
 }
-svg{
+svg {
     fill: $White;
 }
-.card__item{
-   
+.h2__servis{
+    position: relative;
+}
+.card__item {
     transition: 0.5s ease-in all;
     color: $White;
     border-radius: 1em;
-    
-    &:hover > .bd-placeholder-img{
+
+    &:hover > .bd-placeholder-img {
         background-color: $White;
         transform: translateY(-2px);
     }
-    &:hover  svg{
+    &:hover svg {
         fill: $LigthBlue;
     }
 }
 
-.p__ligether{
+.p__ligether {
     color: rgba($Darck, 0.3);
+}
+.page-footer{
+    background-color: $BlackBlue;
 }
 @keyframes submenu {
     0% {
