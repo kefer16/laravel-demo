@@ -10,7 +10,7 @@
                 src="{{ asset('src/carrousel1.jpeg') }}"
                 alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-                <h5 class="h1">Grupo Asesor TFC</h5>
+                <h2 class="h1">Grupo Asesor TFC</h2>
                 <p class="lead">Llevamos tu empresa a otro nivel</p>
             </div>
         </div>
@@ -19,7 +19,7 @@
                 src="{{ asset('src/carrousel2.jpeg') }}"
                 alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
-                <h5 class="h1">Sub Titulo 2</h5>
+                <h2 class="h1">Sub Titulo 2</h2>
                 <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et est similique vero ipsam incidunt
                     nisi!</p>
             </div>
@@ -29,7 +29,7 @@
                 src="{{ asset('src/carrousel3.jpeg') }}"
                 alt="Third slide">
             <div class="carousel-caption d-none d-md-block">
-                <h5 class="h1">Sub Titulo 3</h5>
+                <h2 class="h1">Sub Titulo 3</h2>
                 <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et est similique vero ipsam incidunt
                     nisi!</p>
             </div>

@@ -1,6 +1,6 @@
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Nunito");
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 // Variables
 @import "variables";
 
@@ -10,13 +10,17 @@
 @import "~animate.css/animate";
 @import 'contactos.scss';
 
+h1, h2{
+    font-family: $font-display;
+}
 .navbar {
     // background-color: #FFF;
 }
 .carousel-item > img {
     object-fit: cover;
     max-height: calc(100vh);
-    filter: brightness(50%);
+    filter: brightness(60%);
+    // filter: contrast(70%);
 }
 
 .img-feature {
@@ -30,12 +34,15 @@
 }
 .nav-link {
     font-size: 1rem;
-
-    &::before {
-        content: "";
-        width: 100%;
-        height: 10px;
-        background-color: red;
+    
+   &:hover{
+       color: $LigthBlue !important;
+   }
+   
+}
+.dropdown-item{
+    &:hover{
+        color: $LigthBlue !important;
     }
 }
 
@@ -43,6 +50,40 @@
     animation: submenu 0.5s ease-in;
 }
 
+#servicios{
+    background-image: url("/src/servicios/fondo.jpg");
+    // background: $LigthBlue;
+    background-size: cover;
+    background-position: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    filter: brightness(90%);
+}
+.bd-placeholder-img{
+    // background-color: rgba($Darck,0.3);
+    transition: 0.5s ease all;
+}
+svg{
+    fill: $White;
+}
+.card__item{
+   
+    transition: 0.5s ease-in all;
+    color: $White;
+    border-radius: 1em;
+    
+    &:hover > .bd-placeholder-img{
+        background-color: $White;
+        transform: translateY(-2px);
+    }
+    &:hover  svg{
+        fill: $LigthBlue;
+    }
+}
+
+.p__ligether{
+    color: rgba($Darck, 0.3);
+}
 @keyframes submenu {
     0% {
         opacity: 0;
