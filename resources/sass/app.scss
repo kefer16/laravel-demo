@@ -19,6 +19,7 @@ h2 {
 }
 .carousel-item > img {
     object-fit: cover;
+    object-position: 0 30px;
     max-height: calc(100vh);
     filter: brightness(60%);
 }
@@ -46,7 +47,7 @@ h2 {
 }
 
 .dropdown-menu {
-    animation: submenu 0.5s ease-in;
+    animation: submenu 0.4s ease;
 }
 
 #servicios {

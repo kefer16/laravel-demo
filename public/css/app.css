@@ -14730,6 +14730,8 @@ h2 {
 .carousel-item > img {
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: 0 30px;
+     object-position: 0 30px;
   max-height: calc(100vh);
   filter: brightness(60%);
 }
@@ -14758,8 +14760,8 @@ h2 {
 }
 
 .dropdown-menu {
-  -webkit-animation: submenu 0.5s ease-in;
-          animation: submenu 0.5s ease-in;
+  -webkit-animation: submenu 0.4s ease;
+          animation: submenu 0.4s ease;
 }
 
 #servicios {
