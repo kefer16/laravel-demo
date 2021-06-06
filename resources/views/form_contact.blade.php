@@ -47,6 +47,9 @@
         <div class="col-12 mt-4">
             <button type="submit" class="btn btn-primary">Enviar</button>
         </div>
+        <div class="col-12 mt-4">
+            <button type="submit" class="btn btn-primary">Enviar prueba</button>
+        </div>
 
     </form>
 </div>

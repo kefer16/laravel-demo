@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
     @include('header')
     @include('bannerContactos')
     @include('form_contact')
