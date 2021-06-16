@@ -1,0 +1,118 @@
+:root {
+    font-size: 16px;
+    box-sizing: border-box;
+    --border-color: #d4d4e1;
+    --blue: #186adc;
+    --title-color: #303036;
+    --white: #fff;
+    --font-weigth-title: 700;
+    --text-parraf: #63636b;
+}
+$display-md: 768px;
+
+.servis {
+    margin: 4em 0;
+    &__top {
+        // border: 1px solid red;
+        h2 {
+            font-size: 2rem;
+            color: var(--title-color);
+            font-weight: var(--font-weigth-title);
+        }
+        h3 {
+            color: var(--blue);
+            text-transform: uppercase;
+            font-size: 1rem;
+        }
+        
+    }
+    &__botoom {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        margin: 1rem auto;
+        padding: 2em 0;
+        @media only screen and (max-width: $display-md) {
+            grid-template-columns: 1fr;
+            // background-color: red;
+        }
+        // border: 1px solid red;
+        &__card {
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: 0.2s ease;
+            text-align: center;
+            &__transparent {
+                padding: 1rem 2em;
+                transition: 0.2s ease;
+                height: 100%;
+            }
+            &:hover {
+                // background-color: var(--blue);
+
+                border: 1px solid var(--white);
+                background-size: cover;
+                background-repeat: no-repeat;
+               
+
+                & .icon {
+                    background-color: var(--white);
+                }
+                & .transparent {
+                    // backdrop-filter: blur(1px);
+                    backdrop-filter: brightness(70%);
+                }
+                & .fas {
+                    color: var(--blue);
+                }
+                & .title {
+                    color: var(--white);
+                    backdrop-filter: blur(2px);
+                }
+                & .parraf {
+                    color: var(--white);
+                    backdrop-filter: blur(2px);
+                }
+            }
+            &__icon {
+                padding: 1.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100px;
+                height: 100px;
+                margin: auto;
+                background-color: var(--blue);
+                border-radius: 50%;
+                color: var(--white);
+                transition: 0.2s ease;
+
+                i {
+                    padding: 1.2rem;
+                    font-size: 2.5rem;
+                    transition: 0.2s ease;
+                }
+            }
+            &__title {
+                // border: 1px solid red;
+                font-weight: var(--font-weigth-title);
+                margin: 1rem auto;
+            }
+            &__description {
+                // border: 1px solid red;
+                color: var(--text-parraf);
+            }
+        }
+    }
+}
+
+.card-1:hover {
+    background-image: url("/src/servicios/Asesoría-y-Consultoría.jpg");
+}
+.card-2:hover {
+    background-image: url("/src/servicios/outsourcing-y-PD.jpg");
+}
+.card-3:hover {
+    background-image: url("/src/servicios/sistema-de-prevención.jpg");
+}
