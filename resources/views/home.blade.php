@@ -13,7 +13,7 @@
 <body>
     @include('header')
     @include('carousel')
-    @include('pricyng')
+    {{-- @include('pricyng') --}}
     @include('marketing')
    
     
