@@ -16,6 +16,7 @@ function addclase() {
     parent.classList.add("focus");
     parent.childNodes[1].classList.add("colorIconos");
 }
+
 function removeclase() {
     let parent = this.parentNode;
     if (this.value == "" || this.value == 0) {
